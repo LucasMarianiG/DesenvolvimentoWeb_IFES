@@ -1,0 +1,107 @@
+#titulos {
+   padding: 20px;
+}
+
+#titulo_maior {
+   color: #ffffff;
+   margin-top: 0.25rem;
+}
+
+#pessoa_depoimento {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* keep default container-fluid behavior for navbar; custom styles applied via .navbar-custom */
+
+/* Layout and visual improvements */
+body {
+   font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+   background: linear-gradient(180deg, #ffffff 0%, #f7f9fb 100%);
+   color: #222;
+}
+
+.container-center {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 24px;
+   background-color: rgb(30, 15, 117)
+}
+
+#secao_1 {
+   border-radius: 12px;
+   padding: 28px;
+}
+
+#logo { 
+   display: block;
+   margin: 0 auto 12px;
+}
+
+.lead-sub {
+   color: #4b5563;
+   margin-bottom: 18px;
+}
+
+.capture-form {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+   margin-top: 12px;
+}
+
+.capture-form input[type="email"]{
+   flex: 1;
+   padding: 10px 12px;
+   border-radius: 8px;
+   border: 1px solid #d1d5db;
+}
+
+.capture-form button{
+   white-space: nowrap;
+}
+
+#secao_2, #secao_3 {
+   margin-top: 28px;
+}
+
+.feature {
+   background: rgb(189, 190, 214);
+   border-radius: 8px;
+   padding: 14px;
+   box-shadow: 0 4px 12px rgba(16,24,40,0.03);
+   margin-bottom: 12px;
+}
+
+footer {
+   text-align: center;
+   color: #6b7280;
+   background-color: rgb(29, 29, 87);
+}
+
+@media (max-width: 576px) {
+   .capture-form { flex-direction: column; align-items: stretch; }
+   .capture-form button { width: 100%; }
+}
+
+/* Navbar custom: single colored bar with light hover for items */
+.navbar-custom {
+   background-color: #121835 !important; 
+   border-radius: 10px;
+}
+.navbar-custom .navbar-brand {
+   color: #ffffff !important;
+   font-weight: 700;
+}
+.navbar-custom .nav-link {
+   color: #ffffff !important;
+   transition: background-color 150ms ease, color 150ms ease;
+   border-radius: 6px;
+   padding: 0.375rem 0.6rem;
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+   background-color: rgba(255,255,255,0.12) !important; /* slight lightening */
+   color: #ffffff !important;
+}
+
