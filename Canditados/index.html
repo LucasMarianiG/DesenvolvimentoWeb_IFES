@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Eleitoral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Análise de Situação Eleitoral </h2>
+        <p>Para fazer o cadastro é necessário que você informe todos os dados</p>
+
+        <div class="nomeCandidato">
+            <label for="name">Informe seu nome completo</label>
+            <input type="text" name="name" id="name" class="name" placeholder="EX: Elinario SCosta">
+        </div>
+
+        <div class="idadeCandidato">
+            <label for="idade">Informe sua idade - Considere quantos anos você terá em 11/11/2026</label>
+            <input type="text" name="idade" id="idade" class="idade" placeholder="19">
+        </div>
+
+        <button type="button" name="verificar" id="verificar" onclick="verificacao()">Verificação</button>
+
+        <div class="resultado">
+            <h2>Status</h2>
+            <p id="resultado">Aguardando o resultado...</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
